@@ -1,41 +1,45 @@
 # Telco Customer Churn Analysis
 
-This project explores customer churn using the Telco dataset. It covers data cleaning, exploratory data analysis (EDA), feature engineering, and predictive modeling using logistic regression. The analysis provides insights into customer behavior and retention patterns, supported by visualizations and evaluation metrics. The notebook is beginner-friendly and serves as a foundation for more advanced churn prediction models.
+## 📌 Project Overview
+This project analyzes the **Telco Customer Churn dataset** to understand why customers leave a telecom company and to predict churn using machine learning models. The goal is to provide insights that can help improve customer retention strategies.
 
-## 📂 Dataset
-The dataset contains customer information such as demographics, subscription services, tenure, billing, and churn status. It helps in understanding why customers leave a telecom service.
+## 🗂️ Dataset
+- **File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+- **Source:** Kaggle / IBM Telco Customer Churn dataset
+- **Features include:**  
+  - Customer demographics (gender, age, etc.)  
+  - Account information (contract type, payment method, tenure)  
+  - Services subscribed (phone, internet, streaming, etc.)  
+  - Churn indicator (`Yes`/`No`)  
 
-## 📊 What’s included
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) with plots and observations
-- Feature engineering and encoding for modeling
-- Logistic regression model to predict customer churn
-- Model evaluation using accuracy, confusion matrix, and classification report
-- Insights and recommendations for reducing churn
+## 📝 Project Workflow
+1. **Data Cleaning & Preprocessing**  
+   - Handle missing values  
+   - Convert categorical variables into numerical values  
+   - Remove unnecessary columns  
 
-## 🛠 Libraries used
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+2. **Exploratory Data Analysis (EDA)**  
+   - Analyze churn rates across different customer segments  
+   - Visualize correlations between features  
+   - Identify patterns and trends  
 
-## 🚀 How to run this project
+3. **Feature Engineering**  
+   - Create meaningful features to improve model performance  
 
-1. Clone the repository:
-git clone https://github.com/zeeltanna/telco-customer-churn-analysis
+4. **Model Building & Evaluation**  
+   - Test different classification models (e.g., Logistic Regression, Random Forest)  
+   - Evaluate model performance using accuracy, precision, recall, and F1-score  
 
-2. Navigate into the project directory:
+5. **Insights & Recommendations**  
+   - Identify key factors contributing to customer churn  
+   - Suggest actionable strategies to improve customer retention  
 
-3. Install the required libraries:
+## 📊 Key Insights (Example)
+- Customers with **month-to-month contracts** are more likely to churn.  
+- **Long-term contracts** and **automatic payments** reduce churn probability.  
+- High usage of multiple services increases the likelihood of retention.  
 
-4. Open the notebook `Telco Churn Analysis (1).ipynb` in Jupyter Notebook or Google Colab.
-5. Run all cells in sequence to explore the dataset and view insights.
-
-## 📌 Notes
-This is a minor data analysis project designed to be easy to understand. It can be extended with more advanced models, tuning techniques, or deployment.
-
-## 📬 Contact
-Feel free to reach out if you have any questions or suggestions!
-
-
+## 🛠️ Technologies Used
+- Python 3 
+- Jupyter Notebook  
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
